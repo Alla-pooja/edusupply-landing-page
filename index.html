@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduSupply - Quality School Supplies</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header Section with Navigation -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>EduSupply</h1>
+            </div>
+            <nav class="desktop-nav">
+                <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <button class="cta-button">Shop Now</button>
+                <button id="theme-toggle" class="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </nav>
+            <div class="mobile-menu-toggle">
+                <button id="theme-toggle-mobile" class="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button id="hamburger">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+        <nav class="mobile-nav">
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><button class="cta-button mobile-cta">Shop Now</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Quality Supplies for Successful Learning</h1>
+                <p>Equipping students with everything they need for a productive educational journey</p>
+                <button class="cta-button hero-cta">Explore Products</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <h2 class="section-title">Product Categories</h2>
+            <p class="section-subtitle">Everything students need for success</p>
+            
+            <div class="product-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="/edusupply-landing-page/stationary.jpg" alt="Stationery">
+                    </div>
+                    <div class="product-info">
+                        <h3>Stationery</h3>
+                        <p>High-quality pens, notebooks, and supplies for everyday learning.</p>
+                        <a href="#" class="product-link">View Products <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="/edusupply-landing-page/backpack.jpg" alt="Backpacks">
+                    </div>
+                    <div class="product-info">
+                        <h3>Backpacks</h3>
+                        <p>Durable, comfortable backpacks designed for students of all ages.</p>
+                        <a href="#" class="product-link">View Products <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="/edusupply-landing-page/gadjets.webp" alt="Tech Gadgets">
+                    </div>
+                    <div class="product-info">
+                        <h3>Tech Gadgets</h3>
+                        <p>Modern devices to enhance the learning experience.</p>
+                        <a href="#" class="product-link">View Products <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="/edusupply-landing-page/artsupplies.jpg" alt="Art Supplies">
+                    </div>
+                    <div class="product-info">
+                        <h3>Art Supplies</h3>
+                        <p>Creative materials for artistic expression and development.</p>
+                        <a href="#" class="product-link">View Products <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2 class="section-title">What Our Customers Say</h2>
+            <p class="section-subtitle">Trusted by educators, parents, and students</p>
+            
+            <div class="testimonial-carousel">
+                <div class="carousel-container">
+                    <div class="carousel-track">
+                        <!-- Testimonials will be added dynamically with JavaScript -->
+                    </div>
+                </div>
+                
+                <div class="carousel-controls">
+                    <button id="prev-slide" class="carousel-control"><i class="fas fa-chevron-left"></i></button>
+                    <div class="carousel-indicators">
+                        <!-- Indicators will be added dynamically with JavaScript -->
+                    </div>
+                    <button id="next-slide" class="carousel-control"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <div class="features-grid">
+                <div class="feature">
+                    <i class="fas fa-truck"></i>
+                    <h3>Fast Shipping</h3>
+                    <p>Get your supplies quickly with our expedited delivery options.</p>
+                </div>
+                
+                <div class="feature">
+                    <i class="fas fa-medal"></i>
+                    <h3>Quality Guarantee</h3>
+                    <p>All products meet high standards for durability and performance.</p>
+                </div>
+                
+                <div class="feature">
+                    <i class="fas fa-tags"></i>
+                    <h3>Special Discounts</h3>
+                    <p>Exclusive pricing for schools and educational institutions.</p>
+                </div>
+                
+                <div class="feature">
+                    <i class="fas fa-headset"></i>
+                    <h3>Customer Support</h3>
+                    <p>Our dedicated team is here to assist with any questions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <h2>Stay Updated</h2>
+                <p>Subscribe to our newsletter for special offers and updates</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Your email address" required>
+                    <button type="submit" class="cta-button">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <h3>EduSupply</h3>
+                    <p>Providing quality educational supplies since 2010. Our mission is to equip students with the tools they need for success.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Product Categories</h4>
+                    <ul>
+                        <li><a href="#">Stationery</a></li>
+                        <li><a href="#">Backpacks</a></li>
+                        <li><a href="#">Tech Gadgets</a></li>
+                        <li><a href="#">Art Supplies</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h4>Contact Us</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Education Ave, Learning City</p>
+                    <p><i class="fas fa-phone"></i> (555) 123-4567</p>
+                    <p><i class="fas fa-envelope"></i> info@edusupply.com</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 EduSupply. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
